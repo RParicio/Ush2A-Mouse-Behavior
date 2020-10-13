@@ -2,7 +2,7 @@
 Custom-made Python scripts to analyze raw behavioral files
 
 These scripts go through our raw behavioral files stored in .hdf5 format. They analyze data from the mouse detection task, where mice (either WT or Ush2A-knockouts) are trained to report tactile stimuli delivered to their forepaw. 
-Each detection session for each mouse has a raw data .hdf5 file. The scripts #1 (1 amplitude type / session) and #3 (2 amplitude types / session) are equivalent, and they read these files. They calculate data such as hit rates, false alarm rates and average latencies for each mouse. They also create a small file containing an array of all lick latencies to investigate the response times of mice. These small files ("pickles") can then be loaded with scripts #2 and #4, respectively.
+Each detection session for each mouse has a raw data .hdf5 file. The scripts #1 (1 amplitude type / session) and #3 (2 amplitude types / session) are equivalent, and they read these files. They calculate data such as hit rates, false alarm rates and average latencies for each mouse. They also create a small file containing an array of all lick latencies to investigate the response times of mice. These small files ("pickles") can then be loaded with scripts #2 and #4, respectively, to create a peri-stimulus time histogram (PSTH) of the lick latencies.
 
 
 Brief script explanation (for multi-amplitude data. For sessions with 1 single amplitude, replace #3 by #1, and replace #4 by #2):
