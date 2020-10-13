@@ -6,7 +6,7 @@ Each detection session for each mouse has a raw data .hdf5 file. The scripts #1 
 
 
 Brief script explanation (for multi-amplitude data. For sessions with 1 single amplitude, replace #3 by #1, and replace #4 by #2):
------------------------------------------------------------
+---------------------------------------------------------------------
 The first script is named "3 - Ush2A mice (2 stim amp).py". 
 
 This code will go through the raw data, split all stimulus trials in 2 categories: "High" and "Low", and analyze them separately. In the files you gave me, you always used 2 amplitudes in the same session (2&4V, and 1&3V). So this code works for both cases. 
